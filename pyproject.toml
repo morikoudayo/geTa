@@ -1,0 +1,11 @@
+[project]
+name = "llama-geta"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.120.1",
+    "llama-cpp-agent>=0.2.35",
+    "pydantic>=2.12.3",
+    "uvicorn>=0.38.0",
+]
