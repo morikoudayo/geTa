@@ -1,7 +1,7 @@
 [project]
 name = "llama-geta"
 version = "0.1.0"
-description = "Add your description here"
+description = "Gateway Enabling Tool Access - Small model tool calling proxy for Continue"
 requires-python = ">=3.14"
 dependencies = [
     "fastapi>=0.120.1",

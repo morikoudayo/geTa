@@ -26,7 +26,7 @@ def create_app() -> FastAPI:
     if not agent_module.is_initialized():
         raise RuntimeError("Agent must be initialized before creating the app. Call agent.initialize() first.")
 
-    app = FastAPI(title="geTa", version="1.0.0")
+    app = FastAPI(title="llama.geta", version="1.0.0")
 
     @app.post("/v1/chat/completions")
     async def chat_completions(request: ChatCompletionRequest):

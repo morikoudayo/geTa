@@ -1,5 +1,5 @@
 """
-geTa: Gateway Enabling Tool Access
+llama.geta: Gateway Enabling Tool Access
 
 Main entry point for the application.
 """
@@ -25,9 +25,5 @@ app = create_app()
 
 if __name__ == "__main__":
     import uvicorn
-
-    logger.info("geTa: Gateway Enabling Tool Access v1.0")
-    logger.info("Architecture: Continue → geTa → llama-cpp-agent → llama.cpp server")
-    logger.info("Continue config: API Base=http://localhost:8000/v1")
 
     uvicorn.run(app, host="0.0.0.0", port=8000, log_level="info")
