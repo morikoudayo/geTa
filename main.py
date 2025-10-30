@@ -1,5 +1,5 @@
 """
-llama.geta: Gateway Enabling Tool Access
+llama.geta: a Gateway Enabling Tool Access
 
 Main entry point for the application.
 """
